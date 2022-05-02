@@ -14,5 +14,10 @@
   "license": "ISC",
   "devDependencies": {
     "concurrently": "^5.1.0"
+  },
+  "dependencies": {
+    "apollo-server-express": "^2.15.0",
+    "if-env": "^1.0.4",
+    "react-router-dom": "^5.3.1"
   }
 }
