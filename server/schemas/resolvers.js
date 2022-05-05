@@ -10,7 +10,7 @@ const resolvers = {
                 .select('-__v -password')
                 return userData;
             }
-            throw new AuthenticationError('Not logged in. Please log in.');
+            throw new AuthenticationError('Not logged in. Please try again');
         }
     },
     Mutation: {

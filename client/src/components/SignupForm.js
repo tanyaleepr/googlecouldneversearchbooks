@@ -7,13 +7,13 @@ import { ADD_USER } from '../utils/mutations';
 
 
 const SignupForm = () => {
-  // form state
+  // set initial form state
   const [userFormData, setUserFormData] = useState({ username: '', email: '', password: '' });
-  //  form validation
+  // set state for form validation
   const [validated] = useState(false);
-  //  for alert
+  // set state for alert
   const [showAlert, setShowAlert] = useState(false);
-  // mutation for adding a user
+  // define mutation for adding a user
   const [createUser] = useMutation(ADD_USER);
 
   const handleInputChange = (event) => {
@@ -24,7 +24,7 @@ const SignupForm = () => {
   const handleFormSubmit = async (event) => {
     event.preventDefault();
 
-  
+    // check if form has everything (as per react-bootstrap docs)
     const form = event.currentTarget;
     if (form.checkValidity() === false) {
       event.preventDefault();
