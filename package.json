@@ -2,7 +2,7 @@
   "name": "googlebooks-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://tanyaleepr.github.io/googlebooks-app",
+  "homepage": "https://tanyaleepr.github.io/googlecouldneversearchbooks",
   "dependencies": {
     "@testing-library/user-event": "^13.5.0",
     "gh-pages": "^3.2.3",
