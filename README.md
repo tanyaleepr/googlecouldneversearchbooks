@@ -11,7 +11,7 @@
 
 This is a MERN app with GraphQL and Apollo Server on the back-end. The search uses Google's Book API to search, find, and save your favorite books with their title, authors, description, image, and a link to the book on Google. 
 
-A live version of the app can be found on [Heroku](https://fast-chamber-65304.herokuapp.com//).
+A live version of the app can be found on [Heroku](https://fast-chamber-65304.herokuapp.com/).
 
 ![screencapture-fast-chamber-65304-herokuapp-2022-05-10-11_30_30](https://user-images.githubusercontent.com/92898110/167678327-3167e25e-58f8-4765-963c-78c116f7d593.jpg)
 
